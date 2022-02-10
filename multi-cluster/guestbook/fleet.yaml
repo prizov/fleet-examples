@@ -8,5 +8,4 @@ targetCustomizations:
         name: unity-pre-onboarding-test3-ucs1
     helm:
       values:
-        service:
-          port: 9999
+        replicas: 3
